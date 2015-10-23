@@ -1,1 +1,5 @@
 ¿Qué es RVM(Ruby Version Manager)?
+
+¿Cúales son las diferencias entre la ejecución del programa "Hola 
+Mundo" con el int́erprete de Ruby ( ruby helloWorld.rb
+) y el intérprete interactivo del ejercicio anterior?
