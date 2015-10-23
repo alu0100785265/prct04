@@ -1,12 +1,20 @@
 ¿Qué es RVM(Ruby Version Manager)?
+Son las diferentes versiones que puede tener Ruby en el entorno de desarrollo 
+
+¿Cúal es el resultado de la siguiente operación?
+ Hello
+ =>nil
 
 ¿Cúales son las diferencias entre la ejecución del programa "Hola 
 Mundo" con el int́erprete de Ruby ( ruby helloWorld.rb
 ) y el intérprete interactivo del ejercicio anterior?
+Si utilizamos el intérprete de Ruby, el código del programa se intrepreta
+ y se muestra por pantalla literalmente. Sin embargo, si utilizamos el 
+intérprete interactivo, pasa cada bloque de código como un comando nuevo
+ que ejecuta IRB y además muestra un valor de retorno.
 
-¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" 
-con el intérprete interactivo y con PRY?
 
+Código:
 
  [1] pry(main)> puts x 10 => nil 
  [2] pry(main)> def hello [2] pry(main)* puts "Hello world" 
@@ -17,3 +25,10 @@ con el intérprete interactivo y con PRY?
 => "changed"
  [6] pry(main)> exit
 program resumes here. Value of x is: changed.
+
+¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo"
+con el intérprete interactivo y con PRY?
+ Pry nos permite cambiar los valores de las variables o funciones definidas
+ durante la interpretación, mientras que con el intérprete interactivo no podemos hacerlo
+
+
